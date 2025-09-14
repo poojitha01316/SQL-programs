@@ -1,0 +1,1 @@
+Select employee_name,company,salary from employees where category = 'Full-Time' order by salary DESC;
