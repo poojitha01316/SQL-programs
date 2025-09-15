@@ -1,0 +1,4 @@
+select author_id, author_name, publication_name
+From Views 
+where view_count = 0
+ORDER BY author_id ASC;
