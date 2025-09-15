@@ -1,0 +1,3 @@
+select department,count(*)  AS total_employees
+from Employees
+group by department;
